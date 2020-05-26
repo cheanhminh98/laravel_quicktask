@@ -11,4 +11,12 @@ return [
     'reset_password'=>'Reset Password',
     'send_password_reset'=>'Send Password Reset Link',
     'dashboard'=>'Dashboard',
-];
+    'logout'=>'Logout',
+    'whoops'=>'Whoops! Something went wrong!',
+    'task'=>'Task',
+    'new_task'=>'New Task',
+    'add_task'=>'Add Task',
+    'current_task'=>'Current Tasks',
+    'delete'=>'Delete',
+]; 
+

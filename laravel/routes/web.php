@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tasks', 'TaskController@index');
+// Route::get('/tasks', 'TaskController@index')->name('show.tasks');
+// Route::post('/task', 'TaskController@store')->name('create.task');
+// Route::delete('/task/{task}', 'TaskController@destroy')->name('delete.task');
+Route::resource('tasks', 'TaskController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
